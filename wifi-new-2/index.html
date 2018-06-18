@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/queries.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="/scripts/jquery-1.2.6.pack.js"></script>
+        <script type="text/javascript" src="/scripts/jquery.maskedinput-1.1.4.pack.js"></script>
+       
+    </head>
+     <!--Mascaramento do CPF-->
+      <script type="text/javascript">
+	       $(document).ready(function(){
+		   $("#cpf").mask("999.999.999-99");
+	       });
+      </script>
+    
+    <!--End mascaramento-->
+    
+    <body>
+        <header>
+            <div class="container-1">
+                <div class="box-top">
+                   <img src="images/casaRB.jpg" alt="Rui Barbosa" width="350px">
+                </div>
+            
+            </div>
+        
+        </header>
+        
+           <div class="bloc-text">
+                <h1>Cadastro Wi-Fi</h1>
+           </div>
+            <div class="container-form">
+                <div class="box-form">
+                    <form class="formulario" method="post" action="post.php" name="cad_wifi" enctype="multipart/form-data" autocomplete= off>
+                        
+                        <div class="div-label">
+                             <div class="col-1">
+                                <label>Nome:</label>
+                            </div>
+                        
+                            <div class="box-input">
+                                <input class="input-width" type="text" name="Nome" id="nome" placeholder="Digite seu nome" required>
+                            
+                            </div>
+                        
+                        </div>
+                             
+                      
+                       <div class="div-label">
+                           <div class="col-1">
+                               <label>CPF:</label>
+                           </div> 
+                           
+                            <div class="box-input">
+                                <input class="input-width" type="text" name="Nome" id="cpf" placeholder="Digite seu CPF" required>
+                
+                           </div>
+                           
+                        </div>
+                      
+                        
+                        <div class="div-label">
+                              <div class="col-1">
+                                  <label>Celular:</label>
+                              </div>
+                            
+                            <div class="box-input">
+                                <input class="input-width" type="text" name="Nome" id="nome" placeholder="Digite seu celular" required>
+                            </div>
+                        </div>   
+                        
+                           
+                        
+                        <div class="div-label">
+                           <div class="col-1">
+                            <label>Email:</label>  
+                           </div> 
+                            
+                            <div class="box-input">
+                                <input class="input-width" type="email" name="Nome" id="nome" placeholder="Digite seu Email" required>
+                            </div>
+                        </div>
+                        
+                        
+                    
+                           
+            
+                        <div class="div-label">
+                           <div class="col-1">
+                                <label >Senha:</label>
+                           </div> 
+                            
+                            <div class="box-input">
+                                <input class="input-width" type="password" name="Nome" id="nome" placeholder="Digite sua senha">
+                            </div>
+                        </div>
+                        
+                        
+                          
+   
+                        <!--Botão de submit-->
+                        <div class="box-input">
+                            <input class="btn-input" type="submit" name="" value="Cadastrar" id="btn-cadastra">
+                        </div>
+                        <!--End submit-->    
+                        
+              
+                         
+                    
+                    
+                    
+                    </form>
+                   
+                
+                
+                </div>
+        
+        
+        
+            </div>
+    
+    
+    </body>
+
+
+</html>
