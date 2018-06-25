@@ -1,8 +1,12 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    
+    
+}
+
 html {
     font-family: 'Lato', sans-serif;
-    color: #888888;
-    font-size: 1em;
-    height: 100%;
 }
 
 header {    
@@ -18,12 +22,6 @@ header img {
     align-items: center;
     align-self: center;
 }
-
-.offset {
-    width: 100%;
-    height: 15%;
-}
-
 
 body {
     display: flex;    
@@ -55,7 +53,7 @@ body {
 
 .container-form {    
     display: flex;
-    height: 85%;
+    height: 70%;
     padding: 0;
     align-self: center;
     margin-bottom: 10px;
@@ -131,15 +129,14 @@ form {
 }
 
 
-
-/*-----------------------------------------------MEDIA QUERYES-----------------------------------------------------------------------*/
+/*--------------------------------------------------MEDIA QUERYES-----------------------------------------------------------*/
 @media only screen 
     and (max-device-width: 640px), 
     only screen and (max-device-width: 667px), 
     only screen and (max-width: 480px){
     
         html{
-            font-size: 1em;
+            font-size: 2em;
             
             
         }    
@@ -158,10 +155,6 @@ form {
         align-self: center;
 }
     
-    .offset {
-        width: 100%;
-        height: 0%;
-}
     
     body {
         display: flex;    
@@ -173,14 +166,14 @@ form {
     
     .container-form {    
         display: flex;
-        height: 94.6%;
+        height: 65vh;
         width: 92.6%;
         padding: 0;
         align-self: center;
         margin-bottom: 10px;
 }
    
-        
+    
         .btn-input {
             margin: 0 auto;
             align-items: center;
@@ -193,5 +186,11 @@ form {
 
     
 }
+
+
+
+
+
+
 
 

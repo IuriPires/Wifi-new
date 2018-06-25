@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+    
+    </head>
+
+    <body>
+        <header>                            
+           <img src="images/casaRui.png" alt="Rui Barbosa" width="350px">                
+        </header>
+         <div class="container-form">
+                <div class="box-form">
+                    <form class="formulario" method="post" action="php/post.php" name="cad_wifi" enctype="multipart/form-data" autocomplete= off>
+                        <div class="div-label">
+                            <h1>Login Wi-Fi</h1>
+                        </div>
+                             
+                       <div class="div-label">
+                           <div class="col-1">
+                               <label>CPF:</label>
+                           </div> 
+                            <div class="box-input">
+                               <input class="input-width" type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" required>
+                           </div>
+                       </div>
+            
+                        <div class="div-label">
+                           <div class="col-1">
+                                <label >Senha:</label>
+                           </div> 
+                            
+                            <div class="box-input">
+                                <input class="input-width" type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+                            </div>
+                        </div>
+                        
+                        
+                          
+   
+                        <!--Botão de submit-->
+                        <div class="div-label">
+                            <input class="btn-input" type="submit"  value="Entrar" id="btn-cadastra" onclick="gerar()">
+                        </div>
+                        <!--End submit-->    
+                        
+              
+                         
+                    
+                    
+                    
+                    </form>
+                   
+                
+                
+                </div>
+        
+        
+        
+            </div>
+        
+        
+        
+    
+    
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

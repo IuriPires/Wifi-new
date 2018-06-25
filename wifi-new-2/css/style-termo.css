@@ -1,0 +1,111 @@
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #efefef;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex-basis: 1140px;
+}
+
+.top-img {
+    margin-top: 20px;
+}
+
+.box-text {
+    display: flex;
+    width: 649px;
+    height: 90px;
+    padding: 0;
+    background-color: white;
+    margin-top: 20px;
+    color: black;
+   
+}
+
+
+.text-termo {
+    flex-direction: row;
+    margin-top: 35px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    
+    
+}
+
+
+
+textarea {
+    width: 650px;
+    height: 55vh;
+    margin-top: 0;
+    margin-right: 0px;
+    background-color: #efefef;
+    color: #2c3e50;
+}
+
+.body-text {
+    margin-left: 5px;
+}
+
+.texto {
+    flex-basis: 500px;
+    height: 60vh;
+    
+    
+}
+
+
+/*-----------------------------------------------------Media QUERYES-------------------------------------------------------------*/
+@media only screen 
+    and (max-device-width: 640px), 
+    only screen and (max-device-width: 667px), 
+    only screen and (max-width: 480px){
+    
+        html{
+            font-size: 1em;
+            
+            
+        }
+        
+        body {
+            width: 100vw;
+            height: 100vh
+        }
+        
+        textarea {
+            width: 94.6vw;
+            font-size: 2em;
+            height: 70vh;
+            margin: 0 auto;
+            justify-content: center;
+           
+        }
+        
+        .box-text {
+            width: 94.6vw;
+        }
+    
+        
+        .text-termo {
+            width: 94.6vw;
+            text-align: center;
+        }
+        
+      
+}
+
+
+
